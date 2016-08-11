@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Account :"/>
+
+    <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:prompt="@string/accountsprompt" android:id="@+id/spinnerAccounts"> </Spinner>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Type"/>
+
+
+    <RadioGroup android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="horizontal">
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Deposit" android:id="@+id/radioDeposit" android:checked="true"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Withdraw" android:id="@+id/radioWithdraw"/>
+
+</RadioGroup>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Date :"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="5dp" android:padding="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="sysdate" android:id="@+id/textTransDate"/>
+
+    <ImageButton android:layout_height="20dp" android:layout_width="20dp" android:id="@+id/buttonDateDialog" android:onClick="showDateDialog" android:src="@drawable/datepicker" android:layout_marginLeft="10dp"> </ImageButton>
+
+</LinearLayout>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Amount :"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="120dp" android:id="@+id/editTransAmount" android:inputType="numberDecimal"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Cheque No."/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="120dp" android:id="@+id/editChequeNo" android:inputType="number"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Cheque Party :"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="120dp" android:id="@+id/editChequeParty" android:inputType="text"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Cheque Details :"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editChequeDetails" android:inputType="text"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Remarks "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editRemarks" android:inputType="text" android:layout_weight="1"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <Button android:layout_height="40dp" android:layout_width="wrap_content" android:text="Add Transaction" android:id="@+id/buttonAdd" android:onClick="addTransaction"> </Button>
+
+</TableRow>
+
+</TableLayout>
+
+</ScrollView>

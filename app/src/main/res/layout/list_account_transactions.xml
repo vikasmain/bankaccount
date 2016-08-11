@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Recent Transactions" style="@style/heading" android:id="@+id/textTitle"/>
+
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/heading" android:stretchColumns="1">
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="60dp" android:text="Date" android:gravity="center" android:textStyle="bold" android:textColor="#ff0000"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Details" android:gravity="center" android:textStyle="bold" android:textColor="#ff0000"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="50dp" android:text="Type" android:gravity="center" android:textStyle="bold" android:textColor="#ff0000"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="70dp" android:text="Amount" android:gravity="center" android:textStyle="bold" android:textColor="#ff0000"/>
+
+</TableRow>
+
+</TableLayout>
+
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/listTransactions"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Sorry! No Transaction Found!" style="@style/error" android:id="@+id/textError" android:visibility="invisible"/>
+
+</LinearLayout>

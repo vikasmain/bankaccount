@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/listAccounts"> </ListView>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Tap on the account to get details!" android:gravity="center" android:textStyle="bold" android:textColor="#0000ff"/>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnAddAccount" android:text="Add Account" android:onClick="addAccount"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnAddTransaction" android:text="Add Trans" android:onClick="addTransaction"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnRecentTransactions" android:text="Recent Trans" android:onClick="recentTransactions"/>
+
+</LinearLayout>
+
+</LinearLayout>

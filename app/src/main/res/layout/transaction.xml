@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="" android:visibility="invisible" android:id="@+id/textTransId"/>
+
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:stretchColumns="1">
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Account No." style="@style/common.heading"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="acno" android:id="@+id/textAcno" android:layout_marginLeft="5dp"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Trans Date" style="@style/common.heading"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="transdate" android:id="@+id/textTransDate" android:layout_marginLeft="5dp"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Trans Details" style="@style/common.heading"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Details" android:id="@+id/textTransDetails" android:layout_marginLeft="5dp" android:singleLine="false" android:scrollHorizontally="false"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Trans Type" style="@style/common.heading"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Type" android:id="@+id/textTransType" android:layout_marginLeft="5dp"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Trans Amount" style="@style/common.heading"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="amount" android:id="@+id/textTransAmount" android:layout_marginLeft="5dp"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Remarks " style="@style/common.heading"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="remarks" android:id="@+id/textTransRemarks" android:layout_marginLeft="5dp"/>
+
+</TableRow>
+
+</TableLayout>
+
+</LinearLayout>

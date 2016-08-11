@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="app_name">Accounts Tracker</string>
+
+    <string name="accountsprompt">Select Account</string>
+
+</resources>

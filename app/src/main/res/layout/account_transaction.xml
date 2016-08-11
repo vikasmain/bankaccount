@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:stretchColumns="2">
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="" android:visibility="invisible" android:id="@+id/textTransId"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="70dp" android:text="transdate" android:id="@+id/textTransDate"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Detaifdsfsdf dsafsdfsdf sdf fdsaf safdsafdsls" android:id="@+id/textTransDetails" android:singleLine="false" android:scrollHorizontally="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="50dp" android:text="Type" android:id="@+id/textTransType" android:gravity="center"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="" android:id="@+id/textAmount" android:gravity="right" android:minWidth="70dp"/>
+
+</TableRow>
+
+</TableLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="" android:height="2dip" android:background="#ffffff"/>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/listTransactions"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textError" style="@style/error" android:text="Sorry! No Transactions Found!" android:visibility="invisible"/>
+
+</LinearLayout>

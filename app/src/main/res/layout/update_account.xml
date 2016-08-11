@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="updateAccount" android:text="Update" android:id="@+id/buttonUpdate"> </Button>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="deleteAccount" android:text="Delete" android:id="@+id/buttonDelete"> </Button>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="listAccountTransactions" android:text="Transactions" android:id="@+id/buttonListTrans"> </Button>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Account Number"/>
+
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editAcno">
+
+    <requestFocus/>
+
+</EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Customer Number"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editCno"> </EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Account Holder(s)"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editHolders"> </EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Bank Name "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editBankName"> </EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Branch Name "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editBranchName"> </EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Branch Address "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editAddress" android:inputType="textPostalAddress"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="IFSC"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editIFSC"> </EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="MICR"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editMICR"> </EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Current Balance"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editBalance"> </EditText>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Remarks "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editRemarks"> </EditText>
+
+</LinearLayout>
+
+</ScrollView>

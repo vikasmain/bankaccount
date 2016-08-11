@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+
+    -<style name="error">
+
+    <item name="android:textSize">12sp</item>
+
+    <item name="android:textStyle">bold</item>
+
+    <item name="android:textColor">#ff0000</item>
+
+    <item name="android:gravity">center</item>
+
+</style>
+
+
+    <style name="heading">
+
+    <item name="android:textSize">14sp</item>
+
+    <item name="android:textStyle">bold</item>
+
+    <item name="android:textColor">#ffffff</item>
+
+    <item name="android:gravity">center</item>
+
+</style>
+
+    <style name="common"> </style>
+
+
+    <style name="common.heading">
+
+    <item name="android:background">#dddddd</item>
+
+    <item name="android:textStyle">bold</item>
+
+</style>
+
+</resources>

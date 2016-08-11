@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="From Date :"/>
+
+
+    <EditText android:layout_height="wrap_content" android:layout_width="120dip" android:inputType="date" android:id="@+id/editFromDate">
+
+    <requestFocus/>
+
+</EditText>
+
+    <ImageButton android:id="@+id/buttonFromDateDialog" android:src="@drawable/datepicker" android:onClick="showFromDateDialog" android:layout_marginLeft="5dp"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="To Date :"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="120dip" android:inputType="date" android:id="@+id/editToDate"/>
+
+    <ImageButton android:id="@+id/buttonToDateDialog" android:src="@drawable/datepicker" android:onClick="showToDateDialog" android:layout_marginLeft="5dp"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="From Amount:"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="120dip" android:inputType="numberDecimal" android:id="@+id/editFromAmount"/>
+
+</TableRow>
+
+        <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="To Amount :"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="120dip" android:inputType="numberDecimal" android:id="@+id/editToAmount"/>
+
+</TableRow>
+
+</TableLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <Button android:layout_height="wrap_content" android:layout_width="80dip" android:text="Search" android:id="@+id/btnSearch" android:onClick="searchTransactions"> </Button>
+
+    <Button android:layout_height="wrap_content" android:layout_width="80dip" android:text="Clear" android:id="@+id/btnClear" android:onClick="clearFields"/>
+
+</LinearLayout>
+
+</LinearLayout>

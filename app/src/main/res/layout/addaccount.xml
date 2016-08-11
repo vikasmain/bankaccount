@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableLayout android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Account Number"/>
+
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150dp" android:inputType="number" android:id="@+id/editAcno">
+
+    <requestFocus/>
+
+</EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Customer Number"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150dp" android:inputType="number" android:id="@+id/editCno"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Account Holder(s)"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPersonName" android:id="@+id/editHolders" android:layout_weight="1"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Bank Name "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150dp" android:inputType="textPersonName" android:id="@+id/editBankName"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Branch Name "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150dp" android:inputType="textPersonName" android:id="@+id/editBranchName"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Branch Address "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="textPostalAddress" android:id="@+id/editAddress" android:layout_weight="1"/>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="IFSC"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150dp" android:inputType="number" android:id="@+id/editIFSC"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="MICR"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150dp" android:inputType="number" android:id="@+id/editMICR"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Current Balance"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="150dp" android:inputType="numberDecimal" android:id="@+id/editBalance"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Remarks "/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editRemarks" android:layout_weight="1"> </EditText>
+
+</TableRow>
+
+
+    <TableRow>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Add Account" android:id="@+id/buttonAdd" android:onClick="addAccount"> </Button>
+
+</TableRow>
+
+</TableLayout>
+
+</ScrollView>

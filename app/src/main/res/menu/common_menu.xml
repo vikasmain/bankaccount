@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Add Transaction" android:icon="@drawable/ic_add_transaction" android:id="@+id/optAddTransaction"/>
+
+    <item android:title="Search Transactions" android:icon="@drawable/ic_search_transactions" android:id="@+id/optSearchTransactions"/>
+
+    <item android:title="Add Account" android:icon="@drawable/ic_add_account" android:id="@+id/optAddAccount"/>
+
+    <item android:title="List Accounts" android:icon="@drawable/ic_list_accounts" android:id="@+id/optListAccounts"/>
+
+    <item android:title="Recent Transactions" android:icon="@drawable/ic_recent_transactions" android:id="@+id/optRecentTransactions"/>
+
+</menu>
